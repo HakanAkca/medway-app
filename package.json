@@ -1,0 +1,59 @@
+{
+  "name": "Medway",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "apollo-cache-inmemory": "^1.2.6",
+    "apollo-cache-persist": "^0.1.1",
+    "apollo-client": "^2.4.1",
+    "apollo-client-preset": "^1.0.8",
+    "apollo-link": "^1.2.2",
+    "apollo-link-context": "^1.0.8",
+    "apollo-link-error": "^1.1.0",
+    "apollo-link-http": "^1.5.4",
+    "apollo-link-state": "^0.4.1",
+    "crypto-js": "^3.1.9-1",
+    "graphql": "^0.13.2",
+    "graphql-tag": "^2.9.2",
+    "moment": "^2.22.2",
+    "moment-timezone": "^0.5.21",
+    "ramda": "^0.25.0",
+    "react": "16.3.1",
+    "react-apollo": "^2.1.9",
+    "react-native": "0.55.4",
+    "react-native-animatable": "^1.3.0",
+    "react-native-calendars": "^1.20.0",
+    "react-native-collapsible": "^0.13.0",
+    "react-native-datepicker": "^1.7.2",
+    "react-native-elements": "^0.19.1",
+    "react-native-image-picker": "^0.26.10",
+    "react-native-image-zoom-viewer": "^2.2.15",
+    "react-native-keyboard-aware-scroll-view": "^0.6.0",
+    "react-native-linear-gradient": "^2.4.2",
+    "react-native-message-bar": "^2.0.10",
+    "react-native-modal-datetime-picker": "^6.0.0",
+    "react-native-onesignal": "^3.2.6",
+    "react-native-share": "^1.1.1",
+    "react-native-snap-carousel": "^3.7.2",
+    "react-native-swiper": "^1.5.13",
+    "react-native-tab-view": "^1.0.2",
+    "react-native-twilio-video-webrtc": "https://github.com/blackuy/react-native-twilio-video-webrtc",
+    "react-native-vector-icons": "^4.6.0",
+    "react-navigation": "^2.12.1",
+    "tech-services-time": "git+https://gitlab.com/medwaydev/tech-services-time.git#v1.1.1"
+  },
+  "devDependencies": {
+    "babel-jest": "23.4.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react-native": "4.0.0",
+    "jest": "23.4.1",
+    "react-test-renderer": "16.3.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
